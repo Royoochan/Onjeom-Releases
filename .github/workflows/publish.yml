@@ -1,0 +1,35 @@
+name: Publish verified Windows installer
+on:
+  push:
+    branches: [main]
+    paths: ['release.json', '.github/workflows/publish.yml', 'scripts/prepare-release.cjs']
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: onjeom-release
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Download and verify offline-signed installer
+        run: node scripts/prepare-release.cjs
+      - name: Publish friend beta on GitHub Releases
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        shell: bash
+        run: |
+          if gh release view "$RELEASE_TAG" >/dev/null 2>&1; then
+            echo "Release already exists; refusing to overwrite an existing version."
+            exit 1
+          fi
+          gh release create "$RELEASE_TAG" "dist/$INSTALLER_NAME" dist/SHA256SUMS.txt dist/windows-amd64.json dist/FRIEND_GUIDE.md --target "$GITHUB_SHA" --title "온점 $RELEASE_TAG · 친구 초대 베타" --notes-file RELEASE_NOTES.md --prerelease
