@@ -42,7 +42,8 @@ async function main() {
   fs.writeFileSync(path.join('dist',name),file);
   fs.writeFileSync('dist/SHA256SUMS.txt',artifact.sha256 + '  ' + name + '\n');
   fs.writeFileSync('dist/windows-amd64.json',document);
-  fs.copyFileSync('FRIEND_GUIDE.md','dist/FRIEND_GUIDE.md');
+  const archivedGuide = path.join('guides', expected.version + '.md');
+  fs.copyFileSync(fs.existsSync(archivedGuide) ? archivedGuide : 'FRIEND_GUIDE.md', 'dist/FRIEND_GUIDE.md');
   fs.appendFileSync(process.env.GITHUB_ENV, 'RELEASE_TAG=v' + expected.version + '\nINSTALLER_NAME=' + name + '\n');
   console.log('Verified official signed installer ' + expected.version + ' (' + artifact.size + ' bytes)');
 }
