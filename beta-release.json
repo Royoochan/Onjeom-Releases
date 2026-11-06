@@ -1,0 +1,8 @@
+{
+  "version": "0.7.11",
+  "channel": "friend-beta",
+  "installation": "manual",
+  "installer_url": "https://github.com/Royoochan/Onjeom-Releases/releases/download/v0.7.11/Onjeom_Setup_0.7.11.exe",
+  "installer_size": 14070784,
+  "installer_sha256": "ae73374878ebe258d5c74375c2c5d7fb7515a59dc28d4b486056e32dc05188a4"
+}
