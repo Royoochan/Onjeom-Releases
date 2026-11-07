@@ -2,7 +2,9 @@
 
 작은 크림색 창에서 친구와 한 수씩 즐기는 무료 Windows 바둑 앱입니다.
 
-[온점0.7.14 친구 베타 설치 파일 받기](https://github.com/Royoochan/Onjeom-Releases/releases/download/v0.7.14/Onjeom_Setup_0.7.14.exe)
+**0.7.14는 파일 업로드 대기 중이며 아직 공개 다운로드할 수 없습니다.**
+
+[기존0.7.11 친구 베타 설치 파일](https://github.com/Royoochan/Onjeom-Releases/releases/download/v0.7.11/Onjeom_Setup_0.7.11.exe)
 
 Windows10(버전2004이상)/11 x64 · Edge 또는 Chrome 필요 · GitHub 로그인 없이 다운로드할 수 있습니다.
 
@@ -11,7 +13,7 @@ Windows10(버전2004이상)/11 x64 · Edge 또는 Chrome 필요 · GitHub 로그
 한 명이 친구방 만들기에서 크기를 골라 확인한 뒤6자리 코드를 친구에게 보내세요. 친구가 입장을 요청하면 방장이 친구방에서 승인합니다. 한 방에서2명 대국과3명 관전이 가능합니다. 무료 서버 첫 연결은 약1분 걸릴 수 있으며 방 생성 대기는 닫기/Esc로 취소할 수 있습니다.
 
 - [친구 테스트 안내](FRIEND_GUIDE.md)
-- [0.7.14 변경 사항과 설치 파일·체크섬](https://github.com/Royoochan/Onjeom-Releases/releases/tag/v0.7.14)
+- 0.7.14 변경 사항과 파일은 첨부 완료 후 공개됩니다.
 - [오류 제보](https://github.com/Royoochan/Onjeom-Releases/issues)
 
 0.7.14는 시안 기반 친구방/설정, 홈 버튼, 키보드 착수, 앱 안의 규칙·개인정보·문의·오픈소스 안내와 연습 저장 오류 처리를 포함합니다. 무료이며 가입·결제·광고·채팅 기능은 없습니다. 현재 친구 테스트용 베타이며 정식 출시와 Store공개는 보류 중입니다.
