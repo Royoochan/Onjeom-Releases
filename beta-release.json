@@ -1,8 +1,13 @@
 {
-  "version": "0.7.11",
+  "version": "0.7.14",
   "channel": "friend-beta",
-  "installation": "manual",
-  "installer_url": "https://github.com/Royoochan/Onjeom-Releases/releases/download/v0.7.11/Onjeom_Setup_0.7.11.exe",
-  "installer_size": 14070784,
-  "installer_sha256": "ae73374878ebe258d5c74375c2c5d7fb7515a59dc28d4b486056e32dc05188a4"
+  "manual_install": true,
+  "auto_update_changed": false,
+  "server_version": "0.7.9",
+  "source_commit": "297533e3d131275809a142f40f1421e365ecaf5c",
+  "installer": {
+    "name": "Onjeom_Setup_0.7.14.exe",
+    "size": 14102016,
+    "sha256": "d93e477a3be99e16b9c1df3fb61aa91411615634b5a57404bb5011393d0e5258"
+  }
 }
