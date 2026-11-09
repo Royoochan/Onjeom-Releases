@@ -1,5 +1,9 @@
 # 온점 설치·친구 베타 사용 안내
 
+**바쁜 하루 속, 슬쩍 한 수.**
+
+스티커 메모처럼 작은 창, 6단계 투명도 조절, 한 수당 최대 30분의 여유. 일하는 틈틈이 친구와 즐기는 온라인 바둑, 온점.
+
 **[Microsoft Store에서 온점 0.7.15 설치](https://apps.microsoft.com/detail/9MT0VTNCWK64?hl=ko-KR&gl=KR&mode=full)**
 
 Windows의 Microsoft Store 앱에서 설치하는 경로입니다. 연결이 열리지 않으면 시작 메뉴의 Microsoft Store에서 ‘온점’을 검색하고 게시자 ‘노유찬’을 확인하세요. 브라우저에서 별도 EXE를 받는 방식 대신 Store 앱으로 연결하도록 안내합니다.
@@ -9,7 +13,7 @@ Windows의 Microsoft Store 앱에서 설치하는 경로입니다. 연결이 열
 다운로드: https://github.com/Royoochan/Onjeom-Releases/releases/tag/v0.7.14
 설치 파일: Onjeom_Setup_0.7.14.exe
 
-2026-11-09 버전 안내: 최신 앱 코드·운영 서버는0.7.15, Store 등록본은 앱0.7.15/패키지1.7.15.0입니다. Partner Center에서는 Microsoft Store 사용 가능 상태를 확인했으며, GitHub에서 현재 받을 수 있는 EXE는0.7.14입니다.0.7.15의 온라인 개인정보 선택·철회 화면은 이0.7.14 EXE에 포함되지 않습니다.
+2026-11-09 버전 안내: 운영 서버는0.7.15, Store 등록본은 앱0.7.15/패키지1.7.15.0입니다. Partner Center에서는 Microsoft Store 사용 가능 상태를 확인했으며, GitHub에서 현재 받을 수 있는 EXE는0.7.14입니다.0.7.15의 온라인 개인정보 선택·철회 화면은 이0.7.14 EXE에 포함되지 않습니다.
 
 Windows10(버전2004이상)/11 x64, Edge 또는 Chrome이 필요합니다. 무료이며 가입·결제·광고·채팅은 없습니다.
 
