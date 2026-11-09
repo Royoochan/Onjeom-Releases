@@ -2,6 +2,10 @@
 
 작은 크림색 창에서 친구와 한 수씩 즐기는 무료 Windows 바둑 앱입니다.
 
+**[Microsoft Store에서 온점 0.7.15 설치](https://apps.microsoft.com/detail/9MT0VTNCWK64?hl=ko-KR&gl=KR&mode=full)**
+
+Windows의 Microsoft Store 앱에서 설치하는 경로입니다. 연결이 열리지 않으면 시작 메뉴의 Microsoft Store에서 ‘온점’을 검색하고 게시자 ‘노유찬’을 확인하세요. 브라우저에서 별도 EXE를 받는 방식 대신 Store 앱으로 연결하도록 안내합니다.
+
 ## 현재 버전 · 2026-11-09
 
 | 구분 | 버전 | 상태 |
@@ -12,6 +16,8 @@
 | GitHub 공개 EXE | 0.7.14 | 친구 테스트 베타 |
 
 GitHub에서 현재 받을 수 있는 EXE는 0.7.14입니다. 0.7.15에서 추가한 온라인 개인정보 선택·철회 화면은 이 EXE에 포함되지 않습니다. Store 패키지 1.7.15.0은 앱 0.7.15에 대응합니다. 2026-11-09 Partner Center의 현재 Store 상태에서 제품이 Microsoft Store에 사용 가능한 것으로 표시되고, 등록된 패키지 1.7.15.0을 확인했습니다.
+
+## 기존 친구 베타 EXE · 0.7.14
 
 **[현재 공개된 EXE: 온점 0.7.14 친구 베타 설치 파일 받기](https://github.com/Royoochan/Onjeom-Releases/releases/download/v0.7.14/Onjeom_Setup_0.7.14.exe)**
 
