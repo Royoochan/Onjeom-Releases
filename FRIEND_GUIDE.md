@@ -1,4 +1,10 @@
-# 온점0.7.14 친구 베타 사용 안내
+# 온점 설치·친구 베타 사용 안내
+
+**[Microsoft Store에서 온점 0.7.15 설치](https://apps.microsoft.com/detail/9MT0VTNCWK64?hl=ko-KR&gl=KR&mode=full)**
+
+Windows의 Microsoft Store 앱에서 설치하는 경로입니다. 연결이 열리지 않으면 시작 메뉴의 Microsoft Store에서 ‘온점’을 검색하고 게시자 ‘노유찬’을 확인하세요. 브라우저에서 별도 EXE를 받는 방식 대신 Store 앱으로 연결하도록 안내합니다.
+
+## 기존 0.7.14 EXE 친구 베타
 
 다운로드: https://github.com/Royoochan/Onjeom-Releases/releases/tag/v0.7.14
 설치 파일: Onjeom_Setup_0.7.14.exe
